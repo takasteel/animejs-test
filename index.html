@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./scripts/anime.min.js"></script>
+  <script defer src="./scripts/loader.js"></script>
+  <script defer src="./scripts/close.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="loader">
+      <span class="load-progress">0</span>
+    </div>
+
+    <main class="container">
+      <div class="curtain-left">
+        <div class="cb cl" id="l-open1" style="width: 50.1vw;"></div>
+        <div class="ct cl" id="l-open2" style="width: 45vw;"></div>
+        <div class="cb cl" id="l-open3" style="width: 40vw;"></div>
+        <div class="ct cl" id="l-open4" style="width: 35vw;"></div>
+        <div class="cb cl" id="l-open5" style="width: 30vw;"></div>
+        <div class="ct cl" id="l-open6" style="width: 25vw;"></div>
+        <div class="cb cl" id="l-open7" style="width: 20vw;"></div>
+        <div class="ct cl" id="l-open8" style="width: 15vw;"></div>
+        <div class="cb cl" id="l-open9" style="width: 10vw;"></div>
+        <div class="ct cl" id="l-open10" style="width: 5vw;"></div>
+      </div>
+      <div class="curtain-right">
+        <div class="ct cr" id="r-open1" style="width: 50vw;"></div>
+        <div class="cb cr" id="r-open2" style="width: 45vw;"></div>
+        <div class="ct cr" id="r-open3" style="width: 40vw;"></div>
+        <div class="cb cr" id="r-open4" style="width: 35vw;"></div>
+        <div class="ct cr" id="r-open5" style="width: 30vw;"></div>
+        <div class="cb cr" id="r-open6" style="width: 25vw;"></div>
+        <div class="ct cr" id="r-open7" style="width: 20vw;"></div>
+        <div class="cb cr" id="r-open8" style="width: 15vw;"></div>
+        <div class="ct cr" id="r-open9" style="width: 10vw;"></div>
+        <div class="cb cr" id="r-open10" style="width: 5vw;"></div>
+      </div>  
+
+      <section class="welcome-container">
+        <p class="welcome">Welcome!</p>
+        <a href="#" onclick="closeCurtain()" class="btn-container-effect">
+          <span class="btn-effect">Click me!</span>
+        </a>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
